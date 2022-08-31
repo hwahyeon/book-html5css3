@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>HTML5 태그 기본</title>
+    </head>
+    <body>
+        <h3>줄바꿈 태그</h3>
+        HTML5 표기법 < br> <br />
+        XHTML5 표기법 < br /> <br />
+
+        <hr />
+
+        <h3>p태그</h3>
+        p태그는 paragraph의 줄임말이다. 이는 단락을 의미하므로, p 태그는 하나의
+        단락을 만들 수 있다.
+
+        <hr />
+
+        <h3>Lorem ipsum</h3>
+        이는 키케로가 지은 최고 선악론(De finibus bonorum et malorum)에 나오는
+        단어를 마구잡이로 추출하여 만든 글이다.
+        <hr />
+
+        <h3>a태그</h3>
+        Anchor 태그라고 부른다. 서로 다른 웹 페이지 사이를 이동하거나 내부에서
+        특정한 위치로 이동할 때 사용한다. a 태그는 하이퍼링크 기능을
+        제거하더라도 웹 표준을 따르기 위해서 href 속성을 반드시 입력해야 한다.
+        웹 표준을 지키면서 이동하지 않는 a 태그를 만들 때는 href에 #을 넣어준다.
+        이를 빈 링크라고 부른다. a태그로 id속성을 활용하여 페이지 내부
+        이동하려면 href="#id" 식으로 사용한다. 만약 id가 중복되는 경우라면, 먼저
+        나오는 태그로 이동한다. (id 중복은 웹 표준에 어긋난다.)
+        <hr />
+
+        <h3>글자 형태</h3>
+        <b>Lorem ipsum dolor sit amet</b><br />
+        <i>Lorem ipsum dolor sit amet</i><br />
+        <small>Lorem ipsum dolor sit amet</small><br />
+        <sub>Lorem ipsum dolor sit amet</sub><br />
+        <sup>Lorem ipsum dolor sit amet</sup><br />
+        <ins>Lorem ipsum dolor sit amet</ins><br />
+        <del>Lorem ipsum dolor sit amet</del><br />
+        글씨 굵기나 기울임은 CSS로 처리하므로 최근에는 잘 사용하지 않는다.
+
+        <hr />
+        <h3>루비 문자</h3>
+        <ruby>
+            <span>大韓民國</span>
+            <rp>(</rp>
+            <rt>대한민국</rt>
+            <rp>)</rp>
+        </ruby>
+        <br />
+        rp 태그는 ruby태그를 지원할 경우 출력되지 않으나, 지원하지 않는 웹
+        브라우저에는 출력되는 태그다. 그렇다면 ruby태그를 지원하지 않는 웹
+        브라우저에서 ruby 태그를 쓸 수는 있는 이유는 무엇일까? 웹 브라우저는
+        태그를 유연하게 해석하므로, 지원하지 않는 태그라도 정상적으로 출력을
+        하긴 한다. 그러나 익스플로러 8 이하에선 태그 이름을 마음대로 지정하면,
+        스타일을 적용할 수 없다.
+        <br />
+        <hr />
+        ul : 순서가 없는 목록 태그 unordered list <br />
+        ol : 순서가 있는 목록 태그 ordered list<br />
+        li : 목록 요소 list item<br />
+        중첩 목록
+        <ul>
+            <li>
+                HTML5
+                <ol>
+                    <li>Multimedia Tag</li>
+                    <li>Connectivity</li>
+                    <li>Device Access</li>
+                </ol>
+            </li>
+            <li>
+                CSS3
+                <ul>
+                    <li>Animation</li>
+                    <li>3D Transform</li>
+                </ul>
+            </li>
+        </ul>
+        <hr />
+        정의 목록 <br />
+        특정 용어와 그 정의를 표현할 때 사용함.
+        <dl>
+            <dt>HTML5</dt>
+            <dd>Multimedia Tag</dd>
+            <dd>Connectivity</dd>
+            <dd>Device Access</dd>
+            <dt>Milk</dt>
+            <dd>Animation</dd>
+            <dd>3D Transform</dd>
+        </dl>
+        dl : definition list 정의 목록 태그 <br />
+        dt : definition term 정의 용어 <br />
+        dd : definition description 정의 설명<br />
+        웹 표준에 따르면 기본 목록과 정의 목록의 사용 용도는 다르나, 실무에선
+        구분 없이 사용한다.
+        <hr />
+    </body>
+</html>
