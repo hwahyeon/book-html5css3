@@ -16,8 +16,8 @@
 |01|HTML5 개요|요약 내용 없음|
 |02|[HTML5 태그 기본](https://github.com/hwahyeon/HTML5CSS3/blob/main/ch.02.html)|○|
 |03|[CSS3 선택자 기본](https://github.com/hwahyeon/HTML5CSS3/tree/main/ch.03)|○|
-|04|CSS3 스타일 속성 기본||
-|05|||
+|04|[CSS3 스타일 속성 기본](https://github.com/hwahyeon/HTML5CSS3/tree/main/ch.04)|○|
+|05|웹 페이지 레이아웃||
 |06|||
 |07|||
 |08|||
