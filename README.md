@@ -1,17 +1,19 @@
 # 모던 웹을 위한 HTML5+CSS3 바이블
 
-* 책을 읽으며 몰랐던 내용을 요약하고 실습하였음.  
-* 책에 나온 코드는 [여기](https://hanbit.co.kr/support/supplement_survey.html?pcode=B8371709349)에 공개되었음을 밝힘.
+`HTML5` `CSS3`
 
-### 정보
-* 저자 : 윤인성
+## 개요
 
-### 목적
-* HTML5 태그와 CSS3 속성에서 몰랐던 부분을 채우기 위해서
+이 저장소는 **모던 웹을 위한 HTML5+CSS3 바이블**의 학습 내용이 정리되어 있습니다.
 
+<img src="./assets/cover.jpg" alt="Cover" width="200">
+> 윤인성
 
-### 목차
-|No|목차|비고|
+## 학습 목표
+- HTML5, CSS3 미숙한 부분 검토
+
+## 학습 내용
+|No|목차|핵심 학습 내용|
 |---|---|:---:|
 |01|HTML5 개요|요약 내용 없음|
 |02|[HTML5 태그 기본](https://github.com/hwahyeon/HTML5CSS3/blob/main/ch.02.html)|○|
@@ -26,3 +28,6 @@
 |11|||
 |12|||
 |Appendix|||
+
+## 참고자료
+[공개 코드](https://hanbit.co.kr/support/supplement_survey.html?pcode=B8371709349)
