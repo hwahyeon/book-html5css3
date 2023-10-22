@@ -7,6 +7,7 @@
 이 저장소는 **모던 웹을 위한 HTML5+CSS3 바이블**의 학습 내용이 정리되어 있습니다.
 
 <img src="./assets/cover.jpg" alt="Cover" width="200">
+
 > 윤인성
 
 ## 학습 목표
